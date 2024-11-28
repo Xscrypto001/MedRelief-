@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-4bgg@%2uommfdw1y23arz3z+dgir%t9tsa-%uzjmp*1)4kei9%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['176.16.0.96']
 
 
 # Application definition
@@ -34,7 +34,7 @@ INSTALLED_APPS = [
            'corsheaders',
     'rest_framework.authtoken',
 ]
-FRONTEND_URL = 'localhost:5173'
+FRONTEND_URL = 'localhost:3000'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
